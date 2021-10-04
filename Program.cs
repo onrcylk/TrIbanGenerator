@@ -7,7 +7,7 @@ namespace Iban
         static void Main(string[] args)
         {
             string accountNumber = GenerateAccountNumber();
-            var iban = GenerateIban("2927", "88282", "0", accountNumber);
+            var iban = GenerateIban("2927", "00882", "0", accountNumber);
             var result = ValidateIban(iban);
             if (result == true)
             {
